@@ -14,10 +14,20 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "express-flash": "0.0.2",
+    "express-sessions": "^1.0.6",
     "hbs": "^4.0.5",
     "mustache": "^3.1.0",
     "mysql": "^2.17.1",
-    "pug": "^2.0.4"
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.4",
+    "jsonwebtoken": "latest"
   },
-  "proxy": "http://localhost:3306"
+  "proxy": "http://localhost:3306",
+  "devDependencies": {
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.1.0",
+    "passport-jwt": "^4.0.0"
+  }
 }
